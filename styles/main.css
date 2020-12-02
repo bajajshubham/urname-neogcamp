@@ -236,7 +236,7 @@ body
 {  
 
     max-width: var(--max-width-image);
-    border-style: ridge;
+    /* border-style: ridge; */
     border-radius: 0.3rem;  
     
 }
