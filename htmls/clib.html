@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>urname | clib</title>
+</head>
+
+<body>
+    <!-- html document structure: BEGINS -->
+    <h1>@component library</h1>
+    <hr>
+
+    <h1>@containers</h1>
+    <h2>centered container</h2>
+    <div class="container container-centered">
+        <p>this is container and more specifically centered container. Here all
+            content will be centered with auto margin and others.this is
+            centered container, it will go till max width or specified width.
+        </p>
+    </div>
+    <hr>
+
+    <h1>@links</h1>
+    <a href="#" class="links links-primrary">primrary link</a>
+    <a href="#" class="links links-secondary">secondary link</a>
+    <hr>
+
+    <h1>@lists</h1>
+    <h2>unordered lists, decoration non bullet</h2>
+    <div>bullets in unordered lists, are removed with the help of css</div>
+    <ul class="lists-non-bullet">
+        <li> one1 </li>
+        <li>one2</li>
+        <li>one3</li>
+    </ul>
+    <h2>unordered lists, inline, decoration non bullet</h2>
+    <div>instead for going for a new row, I am creating a list which will grow
+        in one row</div>
+    <div>inline lists are doable with the help of css</div>
+    <ul class="lists-non-bullet">
+        <li class="lists-items-inline">one</li>
+        <li class="lists-items-inline">two</li>
+        <li class="lists-items-inline">three</li>
+    </ul>
+    <hr>
+
+    <h1>@header</h1>
+    <header>
+        <p>not available</p>
+        <!-- <div>
+                <img src="#" alt="image not available">
+                <h2>centered container</h2>
+                <p>this is container and more specifically centered container. Here all content will be centered with auto margin and others.this is centered container, it will go till max width or specified width.</p>
+            </div> -->
+    </header>
+    <hr>
+
+    <h1>@nav bar</h1>
+    <nav class="navbar">
+        <div class="navbar-title">Urname</div>
+
+            <ul class="lists-non-bullet nav-pills">
+                
+                <li class="lists-items-inline nav-link-active ">
+                    <a href="#" class="links">one</a>
+                </li>
+
+                <li class="lists-items-inline ">
+                    <a href="#" class="links">two</a>
+                </li>
+
+                <li class="lists-items-inline ">
+                    <a href="#" class="links">three</a>
+                </li>
+
+            </ul>
+    </nav>
+    <hr>
+
+    <h1>@main</h1>
+    <main class="container container-centered main">
+        <div>
+            <img src="/media/nav_icon.png" alt="image not avaiable">
+
+            <h2 class="main-heading-h2">hero the leet speak</h2>
+
+            <p class="main-paragraph">Yoda translator API gives you API access to yoda translator, so that you can integrate this functionality in your websites or applications.</p>
+
+            <textarea  id="input-text-area" rows="8" placeholder="Please type in your text here so that our" ></textarea>
+
+
+            <button type="submit" id="button-translate">button translate</button>
+
+            <p class="main-paragraph-small">paragraph containing directions for the input procesing output 
+            </p>
+            <div class="output-section" id="output-div-area" role="textbox">Yoda translator API gives you API access to yoda translator, so that you can integrate this functionality in your websites or applications.</div>
+
+            <p class="main-paragraph">Yoda translator API gives you API access to yoda translator, so that you can integrate this functionality in your websites or applications.</p>
+
+
+        </div>
+    </main>
+    <hr>
+
+    <h1>@section</h1>
+
+    <section class="section section-ow">
+        <div class="container container-centered">
+            <div style="float:left; width:50%;">
+                <h2>color section</h2>
+                <p>Yoda translator API gives you API access to yoda translator, so that you can integrate this functionality in your websites or applications. Yoda translator API gives you API access to yoda translator, so that you can integrate this functionality in your websites or applications. Yoda translator API gives you API access to yoda translator, so that you can integrate this functionality in your websites or applications.</p>
+                <a href="#" class="links">Browse speak</a>
+            </div> 
+        
+            <div style="float: right; width:50%;">
+                                   
+                <img src="/media/nav_icon.png" alt="image not avaulbele" >
+                </div> 
+
+        </div>
+
+           
+    </section>
+
+    <section class="section ">
+
+        <div class="container container-centered">
+
+            <div style="float:left; width:50%;">
+                <h2>white section</h2>
+                <p>Yoda translator API gives you API access to yoda translator, so that you can integrate this functionality in your websites or applications. Yoda translator API gives you API access to yoda translator, so that you can integrate this functionality in your websites or applications. Yoda translator API gives you API access to yoda translator, so that you can integrate this functionality in your websites or applications.</p>
+                <a href="#" class="links">Browse speak</a>
+            </div>          
+
+          
+                <div style="float: right; width:50%;">
+                                   
+                <img src="/media/nav_icon.png" alt="image not avaulbele" >
+                </div> 
+
+          
+        </div>
+           
+       
+    </section>
+    <hr>
+
+    <h1>@footer</h1>
+    <footer class="footer">
+
+        <p>Credit: <a href="#" class="links">fun translations</a></p>
+    </footer>
+    <hr>
+    <!-- html document structure: ENDS -->
+
+</body>
+
+</html>
