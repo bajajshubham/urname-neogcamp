@@ -46,14 +46,21 @@ body
 
 .links-primrary
 {
+    border: var(--color-green-leet-speak) 2px solid;
+    background-color: var(--color-green-leet-speak);
+    color: var(--color-light);
+    padding: 0rem 1rem;
     border-radius: 0.5rem;
 }
 
 .links-secondary
 {
+    border: var(--color-green-leet-speak) 2px solid;
+    background-color: var(--color-light);
+    color: var(--navbar-black-color);
+    padding: 0rem 1rem;
     border-radius: 0.5rem;
 }
-
 /* lists */
 
 .lists-non-bullet
@@ -238,12 +245,13 @@ body
 .footer
 {
     margin-top: 0.5rem;
-    border-top: 10px solid #222;;
+    border-top: 10px solid #222;
+    border-bottom: 10px solid #222;;
     text-align: center;
     min-height: 40px;
     max-height: 100px;
     color: black;
-    background-color: #007bff;
+    background-color: #17a2b8;
     font-weight: 500;
     font-size: 1.5rem;
 }
@@ -257,3 +265,5 @@ body
 {
     color:var(--color-light);
 }
+
+/* media screen */

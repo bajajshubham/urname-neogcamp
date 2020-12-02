@@ -1,7 +1,7 @@
 // get all objects using querySelector
-var input_binary_speak = document.querySelector("#input-binary-speak")
-var button_translate_binary_speak  = document.querySelector("#button-translate-binary-speak")
-var ouptut_binary_speak = document.querySelector("#output-binary-speak")
+var input_binary_speak = document.querySelector("#input-text-area")
+var button_translate_binary_speak  = document.querySelector("#button-translate")
+var ouptut_binary_speak = document.querySelector("#output-div-area")
 
 // api query source
 var apiURLSource = "https://api.funtranslations.com/translate/binary.json"

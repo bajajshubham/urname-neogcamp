@@ -1,7 +1,7 @@
 // get all objects using querySelector
-var input_leet_speak = document.querySelector("#input-leet-speak")
-var button_translate_leet_speak  = document.querySelector("#button-translate-leet-speak")
-var ouptut_leet_speak = document.querySelector("#output-leet-speak")
+var input_leet_speak = document.querySelector("#input-text-area")
+var button_translate_leet_speak  = document.querySelector("#button-translate")
+var ouptut_leet_speak = document.querySelector("#output-div-area")
 
 // api query source
 var apiURLSource = "https://api.funtranslations.com/translate/leetspeak.json"

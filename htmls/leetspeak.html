@@ -4,46 +4,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
     <title>urname | leetspeak</title>
 </head>
 
 <body>
 
-    <nav>
-        <div>urname</div>
+    <nav class="navbar">
+        <div class="navbar-title">Urname</div>
 
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="leetspeak.html">Leet speak</a></li>
-            <li><a href="binaryspeak.html">Binary speak</a></li>
-            <li> <a href="about.html">About</a></li>
-            <li> <a href="https://www.bajajshubham.me">Me</a></li>
-        </ul>
+            <ul class="lists-non-bullet nav-pills">
 
+                                
+                <li class="lists-items-inline">
+                    <a href="/index.html" class="links">Home</a>
+                </li>
+                
+                <li class="lists-items-inline  nav-link-active">
+                    <a href="/htmls/leetspeak.html" class="links">Leetspeak</a>
+                </li>
+
+                <li class="lists-items-inline ">
+                    <a href="/htmls/binaryspeak.html" class="links">Binaryspeak</a>
+                </li>
+
+                <li class="lists-items-inline ">
+                    <a href="/htmls/about.html" class="links">About </a>
+                </li>
+
+            </ul>
     </nav>
 
-    <main>
+    <main class="container container-centered main">
         <div>
-            <img src="" alt="image not avaiable">
-            <h2>hero the leet speak</h2>
-            <p>some description will come here</p>
-            <input type="textarea" placeholder="here input text will come" id="input-leet-speak">
-            <button type="button" id="button-translate-leet-speak">translate</button>
-            <p>paragraph containing directions for the input procesing output
+            <img src="/media/h4x0r.png" alt="image not avaiable" style="border-radius: 50%;">
+
+            <h2 class="main-heading-h2">urname the leet speaker</h2>
+
+            <p class="main-paragraph">Convert from English to Leet. H4X0R is "Hacker". Leet (or "1337"), also known as eleet or leetspeak, is an alternative alphabet for the English language that is used primarily on the Internet. It uses various combinations of ASCII characters to replace Latinate letters. For example, leet spellings of the word leet include 1337 and l33t; eleet may be spelled 31337 or 3l33t.
+               
+
             </p>
-            <div id="output-leet-speak">here output text will come</div>
-            <p>some description will come here</p>
+            <p class="main-paragraph-small st" style="font-weight: 1000; margin-bottom: .5rem;"> Type your text below to convert to Leet / H4X0R Slang using our Leet / H4X0R Slang Translator</p>
+
+            <textarea  id="input-text-area" rows="8" placeholder="Please type in your text here so that our Leet / H4X0R Slang Translator can do the magic and convert it to Leet / H4X0R Slang ..." ></textarea>
+
+
+            <button type="button" id="button-translate">Translate</button>
+
+            <p class="main-paragraph-small">Transalation will come here 👇
+            </p>
+            <div class="output-section" id="output-div-area" role="textbox"></div>
+
+            <!-- <p class="main-paragraph">Yoda translator API gives you API access to yoda translator, so that you can integrate this functionality in your websites or applications.</p> -->
+
         </div>
     </main>
 
-    <footer>
-
-        <p> Credit: <a href="https://funtranslations.com/">fun translations</a>.
-        </p>
-
+    <footer class="footer">
+        <p>Credit: <a href="https://funtranslations.com" class="links">fun translations</a></p>
     </footer>
 
-    <script src="leetspeak_app.js" type="text/javascript"></script>
+    <script src="/scripts/leetspeak_app.js" type="text/javascript"></script>
 
 </body>
 
