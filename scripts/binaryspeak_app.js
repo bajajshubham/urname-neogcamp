@@ -31,7 +31,7 @@ function translateTOBinaryspeakClickHandler()
 
     fetch(getEncodedURL(englishText))
     .then(response => response.json())
-    .then(json => ouptut_binary_speak.innerHTML = json.contens.translated)
+    .then(json => ouptut_binary_speak.innerHTML = json.contents.translated)
     .catch(erroHandler)
 
 };

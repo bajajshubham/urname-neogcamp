@@ -154,16 +154,23 @@ body
     font-weight: lighter;
 }
 
-#button-translate
+.main-button
 {
-    margin-bottom: 1rem;
-    border: #17a2b8 solid 10px;
+   width: 100%;
+   padding: 1rem 1rem;
+   margin-bottom: 1rem;
+   border-radius: .5rem;
+   
+   color: var(--color-light);
+   background-color: #17a2b8;
+    /* border: #17a2b8 solid 10px;
     border-radius: .3rem;
     background-color: #17a2b8;
+    margin-bottom: 1rem;
     color: var(--color-light);
     width: 100%;
     padding: .5rem 1rem;
-   
+    */
 }
 
 #output-div-area
