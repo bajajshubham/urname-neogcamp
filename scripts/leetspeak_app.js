@@ -19,6 +19,7 @@ function getEncodedURL(text)
 function erroHandler(error)
 {
     console.log("inside error handler");
+    ouptut_binary_speak.innerHTML = "                                                 ";
     ouptut_leet_speak.innerHTML = "API RATE LIMIT REACHED: TRY AFTER 1 HOUR . "+error;
 };
 
