@@ -22,6 +22,11 @@ body
    
 }
 
+br 
+{
+    margin-bottom: 1rem;
+}
+
 /* containers */
 
 .container
