@@ -19,7 +19,8 @@ function getEncodedURL(text)
 function erroHandler(error)
 {
     console.log("inside error handler");
-    ouptut_binary_speak.innerHTML = "                                                 ";
+    // ouptut_binary_speak.innerHTML = "";
+    ouptut_binary_speak.style.backgroundColor = '#57a047';
     ouptut_leet_speak.innerHTML = "API RATE LIMIT REACHED: TRY AFTER 1 HOUR . "+error;
 };
 
@@ -37,4 +38,12 @@ function translateTOLeetspeakClickHandler()
 
 };
 
-button_translate_leet_speak.addEventListener("click",translateTOLeetspeakClickHandler)
+function makeFocussable()
+{
+    console.log("button onchange clicked");
+    ouptut_binary_speak.innerHTML="";
+    ouptut_binary_speak.style.backgroundColor = 'yellow';
+}
+
+button_translate_binary_speak.addEventListener("click",makeFocussable);
+button_translate_leet_speak.addEventListener("click",translateTOLeetspeakClickHandler);
