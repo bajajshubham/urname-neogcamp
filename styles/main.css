@@ -11,7 +11,7 @@
     --color-light:#f8f9fa;
     --color-green-leet-speak:#57a047;
     --max-width-container:800px;
-    --max-width-image:400px;
+    --max-width-image:300px;
     
 }
 
@@ -121,7 +121,7 @@ br
 
 .main img
 {
-    max-width: var(--max-width-image);    
+    max-width: var(--max-width-image);
     display: block;
     margin: auto;
 
@@ -165,7 +165,7 @@ br
    padding: 1rem 1rem;
    margin-bottom: 1rem;
    border-radius: .5rem;
-   
+   font-size: x-large;
    color: var(--color-light);
    background-color: #17a2b8;
     /* border: #17a2b8 solid 10px;
@@ -209,14 +209,14 @@ br
 {
 
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.9rem;
 }
 
 .section p
 {
     
    text-align: justify;
-   margin-bottom: 1rem;
+   margin-bottom:0.5rem;
    margin-right:1rem;
 
 }
