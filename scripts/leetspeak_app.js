@@ -21,7 +21,8 @@ function erroHandler(error)
     console.log("inside error handler");
     // ouptut_binary_speak.innerHTML = "";
     ouptut_leet_speak.style.backgroundColor = '#57a047';
-    ouptut_leet_speak.innerHTML = "API RATE LIMIT REACHED: TRY AFTER 1 HOUR . "+error;
+    console.log("error",error);
+    ouptut_binary_speak.innerHTML = "API RATE LIMIT REACHED: TRY AFTER 1 HOUR . ";
 };
 
 //button translate
