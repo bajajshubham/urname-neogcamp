@@ -280,8 +280,8 @@ br
 
 /* media screen */
 
-/* FOUC */
+/* FOUC
 html {
     visibility: visible;
     opacity: 1;
-}
+} */
