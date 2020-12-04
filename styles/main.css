@@ -279,3 +279,9 @@ br
 }
 
 /* media screen */
+
+/* FOUC */
+html {
+    visibility: visible;
+    opacity: 1;
+}
